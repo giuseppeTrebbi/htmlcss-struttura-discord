@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 body {
@@ -29,6 +28,7 @@ header {
 .logo-container p {
     width: 100%;
     padding: 5px;
+    border: 2px dashed black;
 }
 
 .logo-container p.logo {
@@ -60,6 +60,7 @@ header {
     width: 50%;
     height: 80%;
     background-color: pink;
+    border: 2px dashed black;
 }
 
 .second-section {
@@ -80,12 +81,14 @@ header {
 
 .second-section section.light-blue {
     background-color: rgb(87, 198, 218);
+    border: 2px dashed black;
     width: 100%;
     height: 100%;
 }
 
 .second-section section.pink {
     background-color: pink;
+    border: 2px dashed black;
     width: 60%;
     height: 100%;
 }
@@ -104,6 +107,7 @@ header {
 
 .third-section div {
     background-color: green;
+    border: 2px dashed black;
     height: 90%;
     width: 60%;
 }
@@ -127,12 +131,38 @@ header {
 
 .fourth-section div.pink {
     background-color: rgb(212, 127, 141);
+    border: 2px dashed black;
     height: 100%;
     width: 100%;
 }
 
 .fourth-section div.aqua {
-    background-color: rgb(82, 204, 163);
+    background-color: rgb(63, 138, 113);
+    border: 2px dashed white;
     height: 100%;
     width: 50%;
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(65, 63, 63);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+footer div {
+    background-color: aquamarine;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer button {
+    background-color: rgb(212, 127, 141);
+    border: 2px dashed black;
+    padding: 5px 10px;
 }
