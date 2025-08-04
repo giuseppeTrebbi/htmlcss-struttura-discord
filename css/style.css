@@ -50,14 +50,89 @@ header {
 
 .first-section {
     background-color: blue;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .first-section section {
-    width: 60%;
+    width: 50%;
     height: 80%;
     background-color: pink;
+}
+
+.second-section {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section div {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section section.light-blue {
+    background-color: rgb(87, 198, 218);
+    width: 100%;
+    height: 100%;
+}
+
+.second-section section.pink {
+    background-color: pink;
+    width: 60%;
+    height: 100%;
+}
+
+.gray {
+    background-color: rgb(190, 189, 189);
+}
+
+.third-section {
+    background-color: rgb(190, 189, 189);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section div {
+    background-color: green;
+    height: 90%;
+    width: 60%;
+}
+
+.fourth-section {
+    background-color: rgb(65, 63, 63);
+    height: 500px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fourth-section div {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section div.pink {
+    background-color: rgb(212, 127, 141);
+    height: 100%;
+    width: 100%;
+}
+
+.fourth-section div.aqua {
+    background-color: rgb(82, 204, 163);
+    height: 100%;
+    width: 50%;
 }
